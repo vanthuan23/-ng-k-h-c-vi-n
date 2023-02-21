@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ĐĂNG KÍ HỌC VIÊN</title>
+  <style>
+    body {
+      background-color: #c4a56d;
+    }
+
+    h2 {
+      color: blue;
+      background: #609884;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+      display: flex;
+      flext-direction: row;
+    }
+
+    .form-lable {
+      min-width: 100px;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+<h2>ĐĂNG KÍ HỌC VIÊN</h2>
+<form>
+  <div class="form-group">
+    <lable class="form-lable">Họ và tên</lable>
+    <input type="text" size="30">
+  </div>
+  <div class="form-group">
+    <lable class="form-lable">ngày sinh</lable>
+    <input type="text" size="20">
+  </div>
+  <div class="form-group">
+    <lable class="form-lable">Giới tính</lable>
+    <input type="radio" name="radio" value="nam"> Nam
+    <input type="radio" name="radio" value="nu"> Nữ
+  </div>
+  <div class="form-group">
+    <lable class="form-lable">Địa chỉ</lable>
+    <textarea rows="6" cols="40"></textarea>
+  </div>
+  <div class="form-group">
+    <lable class="form-lable">Lớp</lable>
+    <select>
+      <option value="chon lop">-Chọn lớp-</option>
+      <option value="chon lop">-Lớp A-</option>
+      <option value="chon lop">-Lớp B-</option>
+      <option value="chon lop">-Lớp C-</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <lable class="form-lable">Email</lable>
+    <input type="text" size="25">
+  </div>
+  <div class="form-group">
+    <lable class="form-lable">Điện thoại</lable>
+    <input type="text" size="25">
+  </div>
+  <div class="form-group">
+    <lable class="form-lable"></lable>
+    <input type="submit" value="Đăng ký">
+    <input type="reset" value="Nhập lại">
+  </div>
+</form>
+</body>
+</html>
